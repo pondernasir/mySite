@@ -126,8 +126,8 @@ footer{
     margin: 100px auto auto auto;
 }
 .resume .block{
-    margin: 50px auto;
     border-bottom: solid yellowgreen 1px;
+    margin-bottom: 25px;
     padding-bottom: 25px;
 }
 .resume .block h1{
@@ -135,12 +135,14 @@ footer{
     font-size: 40px;
     letter-spacing: 1px;
     color:yellowgreen;
+    margin-bottom: 10px;
 }
 .resume .block h2{
     font-family: "Bebas Neue", sans-serif;
     font-size: 25px;
     letter-spacing: 1px;
-    margin-top: 50px;
+    margin-top: 30px;
+
 }
 .resume .block p{
     font-family: "Bebas Neue", sans-serif;
@@ -149,7 +151,7 @@ footer{
 }
 @media(max-width:970px){
     .resume .block h1{
-        font-size: 30px;
+        font-size: 45px;
     }    
     .resume .block h2{
         font-size: 17.5px;
